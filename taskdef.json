@@ -1,10 +1,10 @@
 {
-    "family": "multi-plugins-app",
+    "family": "AWS_Auto",
     "containerDefinitions": [
         {
-            "image": "336528382084.dkr.ecr.us-east-2.amazonaws.com/mytestplugin:latest",
-            "name": "multi-plugins-app",
-            "cpu": 10,
+            "image": "336528382084.dkr.ecr.us-east-2.amazonaws.com/tibco-bwce:latest",
+            "name": "AWS_Auto",
+            "cpu": 100,
             "memory": 1024,
             "essential": true,
             "portMappings": [
